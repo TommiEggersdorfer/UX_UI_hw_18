@@ -19,9 +19,18 @@ nav {
 
 /* UL styling */
 ul {
-    width: 50%;
-    margin-left: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
+
+/* List items within the UL */
+ul li {
+    margin: 0 10px;
+}
+
 /* Hero Image section */
 .heroImg {
     height: 600px;
@@ -33,6 +42,7 @@ ul {
     width: 500px;
     margin: 0 auto;
 }
+
 /* Footer styling */
 footer {
     background-color: #373738;
@@ -52,3 +62,40 @@ footer li {
     padding: 5px;
 }
 
+/* My UX Skills section */
+.mySkills {
+    text-align: center;
+    padding: 20px;
+}
+
+.mySkills h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flexChild {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flexChild img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.flexChild h3 {
+    margin: 10px 0;
+}
+
+.flexChild p {
+    font-size: 14px;
+}
