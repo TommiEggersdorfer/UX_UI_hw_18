@@ -2,22 +2,33 @@
 <html>
 <head>
     <title>My Webpage</title>
-    <link rel="stylesheet" href="C:\Users\15073\Desktop\UX_UI_MOD_18\UX_UI_hw_18\css\index.css">
+    <link rel="stylesheet" href="css\index.css">
 </head>
 <body>
     <header class="navigation">
-        <div class="inline-block logo">
-            <img src="C:\Users\15073\Desktop\UX_UI_MOD_18\UX_UI_hw_18\images\B5A4ECC8-BCEB-4432-824D-0E33C10682FF.jpg">
-            <nav class="inline-block">
-                <ul>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="images/B5A4ECC8-BCEB-4432-824D-0E33C10682FF.jpg">
+            </div>
+            <ul class="nav-links">
+                <li>About</li>
+                <li>Contact</li>
+                <li>Skills</li>
+                <li>Work</li>
+            </ul>
+        </nav>
     </header>
+    
+    <section class="heroimg">
+        <div class="content">
+            <img src="images\beezoGirl.png">
+            <div>
+                <h2>Tommi Wolfe</h2>
+            </div>
+            <p>MN based artist of over 20 years gone UXUI Designer. Let's bring your next idea to life!</p>
+            <button>Download Resume</button>
+        </div>
+    </section>
 
     <section class="mySkills">
         <h1>My UX Skills</h1>
@@ -39,19 +50,31 @@
             </div>
         </div>
     </section>
-
-    <section class="heroimg">
-        <div class="content">
-            <img src="C:\Users\15073\Desktop\UX_UI_MOD_18\UX_UI_hw_18\images\beezoGirl.png">
-            <div>
-                <h2>Tommi Wolfe</h2>
+     <!-- New "My Work" section -->
+     <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+            <div class="workItem">
+                <img src="project1.jpg" alt="Project 1">
             </div>
-            <p>MN based artist of over 20 years gone UXUI Designer. Let's bring your next idea to life!</p>
-            <button>Download Resume</button>
+            <div class="workItem">
+                <h4>Project 1 Title</h4>
+                <p>Description of Project 1.</p>
+                <button>View Project</button>
+            </div>
+            <div class="workItem">
+                <img src="project2.jpg" alt="Project 2">
+            </div>
+            <div class="workItem">
+                <h4>Project 2 Title</h4>
+                <p>Description of Project 2.</p>
+                <button>View Project</button>
+            </div>
         </div>
+        <h3>View all projects.</h3>
     </section>
 
-    <footer>
+    <footer class="horizontal footer">
         <ul>
             <li>About</li>
             <li>Contact</li>
