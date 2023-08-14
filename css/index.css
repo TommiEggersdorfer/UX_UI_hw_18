@@ -90,15 +90,11 @@ body, h1, h2, h3 {
 .myWork {
     text-align: center;
     padding: 20px;
-    display: flex; /* Add Flexbox */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center horizontally */
 }
 
 .myWork h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .workGrid {
@@ -108,7 +104,6 @@ body, h1, h2, h3 {
     margin-top: 20px;
     margin: 0 auto; /* Center the grid horizontally */
     max-width: 1200px; /* Adjust this width as needed */
-    align-items: center;
 }
 
 /* Project container */
@@ -120,6 +115,91 @@ body, h1, h2, h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projectContainer img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.projectContainer h4 {
+    margin: 10px 0;
+}
+
+.projectContainer p {
+    font-size: 14px;
+}
+
+.projectContainer button {
+    background-color: #000000;
+    color: rgb(255, 253, 253);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.projectContainer button:hover {
+    background-color: #000000;
+}
+
+.viewAllButton {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add spacing between work items and button */
+}
+
+.viewAllButton:hover {
+    background-color: black;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.flexChild {
+    width: 33%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flexChild img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.flexChild h3 {
+    margin: 10px 0;
+}
+
+.flexChild p {
+    font-size: 14px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column; /* Display flex items in a column on mobile */
+    }
+    
+    .flexChild {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr; /* Display grid items in a single column on mobile */
+    }
 }
 
 .projectContainer img {
