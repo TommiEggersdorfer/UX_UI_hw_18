@@ -98,6 +98,7 @@ body, h1, h2, h3 {
 .myWork h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .workGrid {
