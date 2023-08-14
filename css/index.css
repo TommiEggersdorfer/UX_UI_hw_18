@@ -8,13 +8,13 @@ body, h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #373738;
+    background-color: black;
     padding: 10px 20px;
 }
 
 /* Logo styling */
 .logo img {
-    width: 50%;
+    width: 60%;
     max-height: 100px;
 }
 
@@ -56,7 +56,7 @@ body, h1, h2, h3 {
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center  vertically */
-    background-color: #1e1e1e; /* Change color */
+    background-color: black; 
     padding: 20px;
 }
 
@@ -105,7 +105,7 @@ body, h1, h2, h3 {
 }
 
 .workItem {
-    border: 1px solid #bc9595;
+    border: 1px black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -140,7 +140,7 @@ body, h1, h2, h3 {
 
 .viewAllButton {
     background-color: #000000;
-    color: rgb(188, 149, 149); /* Corrected color value */
+    color: rgb(188, 149, 149);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -150,7 +150,7 @@ body, h1, h2, h3 {
 }
 
 .viewAllButton:hover {
-    background-color: #000000;
+    background-color: black;
 }
 
 .flexContainer {
@@ -162,7 +162,7 @@ body, h1, h2, h3 {
 .flexChild {
     width: 33%;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 10px;
     text-align: center;
 }
