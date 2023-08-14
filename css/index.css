@@ -14,8 +14,8 @@ body, h1, h2, h3 {
 
 /* Logo styling */
 .logo img {
-    width: 60%;
-    max-height: 200px;
+    width: 50%;
+    max-height: 100px;
 }
 
 /* UL styling */
@@ -29,7 +29,7 @@ body, h1, h2, h3 {
 /* List items within the UL */
 .nav-links li {
     margin: 0 10px;
-    color: white;
+    color: rgb(230, 215, 215);
 }
 
 /* Hero Image section */
@@ -126,7 +126,7 @@ body, h1, h2, h3 {
 
 .workItem button {
     background-color: #000000;
-    color: white;
+    color: rgb(255, 253, 253);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -140,7 +140,7 @@ body, h1, h2, h3 {
 
 .viewAllButton {
     background-color: #000000;
-    color: rgb(188, 149, 149);
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
