@@ -38,7 +38,7 @@ body, h1, h2, h3 {
     padding: 25px;
 }
 
-/* Content within the hero section */
+/* Content WITHIN the HERO section */
 .content {
     /* Remove or adjust the width property */
     /* width: 500px; */
@@ -48,15 +48,15 @@ body, h1, h2, h3 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 20px; /* Add margin to create space */
+    margin-bottom: 20px; /* margin to create space */
 }
 
 /* Footer styling */
 .footer {
     display: flex; /* Display items horizontally */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    background-color: #1e1e1e; /* Change to your desired color */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center  vertically */
+    background-color: #1e1e1e; /* Change color */
     padding: 20px;
 }
 
@@ -72,7 +72,7 @@ body, h1, h2, h3 {
 .footer li {
     padding: 5px;
     margin: 0 10px; /* Add some space between list items */
-    color: white; /* Change text color to white or your desired color */
+    color: white; /* Change text color  */
 }
 
 /* My UX Skills section */
@@ -105,7 +105,7 @@ body, h1, h2, h3 {
 }
 
 .workItem {
-    border: 1px solid #ccc;
+    border: 1px solid #bc9595;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -125,7 +125,7 @@ body, h1, h2, h3 {
 }
 
 .workItem button {
-    background-color: #373738;
+    background-color: #000000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -135,12 +135,12 @@ body, h1, h2, h3 {
 }
 
 .workItem button:hover {
-    background-color: #1e1e1e;
+    background-color: #000000;
 }
 
 .viewAllButton {
-    background-color: #373738;
-    color: white;
+    background-color: #000000;
+    color: rgb #bc9595 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -150,7 +150,7 @@ body, h1, h2, h3 {
 }
 
 .viewAllButton:hover {
-    background-color: #1e1e1e;
+    background-color: #000000;
 }
 
 .flexContainer {
@@ -178,4 +178,19 @@ body, h1, h2, h3 {
 
 .flexChild p {
     font-size: 14px;
+}
+/* responsive */
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column; /* Display flex items in a column on mobile */
+    }
+    
+    .flexChild {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr; /* Display grid items in a single column on mobile */
+    }
 }
