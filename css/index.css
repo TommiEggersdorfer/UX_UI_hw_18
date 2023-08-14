@@ -104,27 +104,31 @@ body, h1, h2, h3 {
     margin-top: 20px;
 }
 
-.workItem {
-    border: 1px black;
+/* Project container */
+.projectContainer {
+    border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.workItem img {
+.projectContainer img {
     max-width: 100%;
     margin-bottom: 10px;
 }
 
-.workItem h4 {
+.projectContainer h4 {
     margin: 10px 0;
 }
 
-.workItem p {
+.projectContainer p {
     font-size: 14px;
 }
 
-.workItem button {
+.projectContainer button {
     background-color: #000000;
     color: rgb(255, 253, 253);
     border: none;
@@ -134,7 +138,7 @@ body, h1, h2, h3 {
     transition: background-color 0.3s ease;
 }
 
-.workItem button:hover {
+.projectContainer button:hover {
     background-color: #000000;
 }
 
@@ -179,6 +183,7 @@ body, h1, h2, h3 {
 .flexChild p {
     font-size: 14px;
 }
+
 /* responsive */
 @media (max-width: 600px) {
     .flexContainer {
